@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+   <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Il Bed and Breakfast ti aiuta a scoprire il perfetto equilibrio tra ospitalità, lusso e comfort.">
+	<title>Bed and Breakfast</title>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/global-header.css">
+	<link rel="stylesheet" href="./assets/css/global-footer.css">
+	<link rel="stylesheet" href="./assets/css/accesibility.css">
+	<link rel="stylesheet" href="./assets/css/index.css">
+	<link rel="shortcut icon" href="./assets/img/favicon.webp" type="image/x-icon">
+</head>
+<body class="scroll-bar">
+	<div id="loader">
+		<svg version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+			<path fill="#d4af37" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50">
+				<animateTransform 
+					attributeName="transform" 
+					attributeType="XML" 
+					type="rotate"
+					dur="1s" 
+					from="0 50 50"
+					to="360 50 50" 
+					repeatCount="indefinite" />
+		</path>
+		</svg>
+	</div>
+   <header>
+      <div class="header-container">
+         <nav class="header-nav-bar">
+				<div class="header-nav-logo">
+					<a href="index.html">
+						<img src="https://res.cloudinary.com/joshuafolorunsho/image/upload/v1591615159/star_hotels_logo.png"
+							alt="logo bed and breakfast">
+					</a>
+				</div>
+				<ul class="header-nav-lists">
+						<li class="header-nav-list">
+							<a class="header-nav-link header-active" href="index.html">Home</a>
+						</li>
+						<li class="header-nav-list"><a class="header-nav-link"
+								href="rooms-and-suites.html">Camere</a></li>
+						<li class="header-nav-list"><a class="header-nav-link" href="facilities.html">Servizi</a></li>
+						<li class="header-nav-list"><a class="header-nav-link" href="contact-page.html">Contattaci</a></li>
+						<li class="header-nav-list"><a class="header-btn header-btn-custom" href="https://timbu.com/search?query=hotel">PRENOTA ORA</a></li>
+					</ul>
+            
+            <div class="header-hamburger-icon">
+               <div class="header-hamburger-line-1"></div>
+               <div class="header-hamburger-line-2"></div>
+               <div class="header-hamburger-line-3"></div>
+            </div>
+         </nav>
+      </div>
+
+      </div>
+	</header>
+
+	<div class="jumbotron-container">
+		<div class="jumbotron-left">
+			<h2 class="jumbotron-header">Scopri il perfetto equilibrio <br> tra ospitalità, lusso e <br>comfort.</h2>
+			<p>Siamo concentrati nel fornire ai clienti il massimo livello<br>
+					di comfort e tariffe eccellenti e convenienti</p>
+					<a href="https://timbu.com/search?query=hotel" class="btn btn-fill btn-large">Prenota Ora</a>
+		</div>
+		<div class="jumbotron-right">
+			<form action="" class="jumbotron-form">
+				<!-- Metti il modulo qui -->
+					<h3>Hai paura di non potertelo permettere?</h3><br>
+					<p>Non preoccuparti, il nostro bed and breakfast offre le migliori tariffe convenienti che puoi trovare.</p>
+					<label class="hide" for="arrival">data di arrivo</label>
+					<input type="text" id="arrival" name="arrival_date" placeholder="Data di Arrivo" onfocus="(this.type='date')" ><br>
+					<label class="hide" for="departure">data di partenza</label>
+					<input type="text"  id="departure" name="departure_date" placeholder="Data di Partenza" onfocus="(this.type='date')" ><br>
+					<label class="hide" for="guests">quanti ospiti</label>
+					<input type="text" id="guests" name="guests" placeholder="Ospiti"><br>
+					<label class="hide" for="children">bambini</label>
+					<input type="text" id="children" name="children" placeholder="Bambini"><br>
+					<button type="button" class="rates">VERIFICA TARIFFE</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Goditi il tuo soggiorno nel nostro bed and breakfast -->
+	<div class="enjoy-container">
+		<div class="enjoy-header">
+			<h2 class="enjoy-heading">Goditi il tuo soggiorno <br>nel nostro bed and breakfast</h2>
+			<hr class="horizontal">
+			<p>Siamo più di un semplice bed and breakfast perché siamo in grado<br> di combinare la qualità standard di un hotel con i<br> vantaggi di un appartamento.</p>
+		</div>
+	<div class="enjoy-services">
+		<div class="first-col">
+			<div class="upper">
+					<span>
+						<img src="./assets/img/clock.svg" alt="icona orologio" class="enjoy__clock-icon">
+					</span>
+					<h3>Colazione Inclusa</h3>
+					<p>La colazione è inclusa nel soggiorno presso il nostro bed and breakfast.</p>
+			</div>
+			<div class="lower">
+				<span>
+					<img src="./assets/img/database.svg" alt="icona fitness" class="enjoy__fitness-icon">
+				</span>
+				<h3>Fitness e Spa nelle vicinanze</h3>
+				<p>Nella zona troverai facilmente centri fitness e spa per il tuo benessere.</p>
+			</div>
+			
+		</div>
+		<div class="sec-col">
+				<div class="upper">
+					<span>
+						<img src="./assets/img/coffee.svg" alt="icona caffè" class="enjoy__coffee-icon">
+					</span>
+						<h3>Ristoranti e Bar nelle vicinanze</h3>
+					<p>Nella zona troverai facilmente ristoranti e bar di alta qualità.</p>
+				</div>
+				<div class="lower">
+					<span>
+						<img src="./assets/img/wifi.svg" alt="icona wifi" class="enjoy__wifi-icon">
+					</span>
+						<h3>Accesso Wi-Fi gratuito</h3>
+						<p>Hai accesso a servizi Wi-Fi gratuiti 24 ore su 24, indipendentemente dalla stanza.</p>
+				</div>
+		</div>
+		<div class="third-col cont">
+			<img src="./assets/img/ant-design_play-circle-filled.svg" alt="icona video play" class="enjoy__play-icon">
+			<img src="./assets/img/video link.webp" alt="donna in piscina" class="third-col-video">
+		</div>
+	</div>
+
+	</div>
+	<section class="special-offers">
+		<!-- Testo in alto -->
+		<div class="page-header-container">
+
+		  <h2 class="page-header">La semplicità è la parola d'ordine <br>definitiva</h2>
+	
+            
+            </div>
+			<div class="row center-lg">
+				<div class="col image-col right-marg">
+					<img src="assets/img/hotel-1.webp" alt="immagine stanza" class="small-image">
+					<img src="assets/img/hotel-2.webp" alt="immagine stanza" class="small-image">
+					<img src="assets/img/hotel-3.webp" alt="immagine stanza" class="small-image img-hide">
+					<div class="side-by-side-container">
+						<div class="large-image-container">
+							<img src="assets/img/hotel-4-large.webp" alt="immagine stanza grande" class="large-image">
+						</div>
+						<section class="stacked-image-container">
+						  <div><img src="assets/img/hotel-5.webp" alt="immagine stanza" class="small-image"></div>
+						  <div><img src="assets/img/hotel-6.webp" alt="immagine stanza" class="small-image"></div>
+						</section>
+					</div>
+				</div>
+				<div class="col">
+					<p class="offers-sub-title">
+							Il fatto che siamo gestiti da professionisti dell'ospitalità<br>e dotati dei migliori interior designer del mondo <br> è il motivo per cui le nostre camere e suite sono seconde a nessuno nell'universo
+					</p>
+					<ul class="offers-list">
+						<li>
+							<div>
+								<img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+								<p class="list-text">Camera Standard</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+								<p class="list-text">Camera Executive</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="assets/img/check-square.svg" alt="tick" class="list-icon">
+								<p class="list-text">Suite Reale</p>
+							</div>
+						</li>
+					</ul>
+					<a href="https://timbu.com/search?query=hotel" class="btn btn-fill btn-large centered">Prenota Ora</a>
+				</div>
+			</div>
+		</section>
+
+	<footer class="footer">
+		<div class="footer-container">
+			<nav class="footer-nav">
+				<div class="footer-description">
+					<h3 class="footer-description-title">Bed and Breakfast</h3>
+					<p>Ospitalità e Comfort sono le nostre parole d'ordine</p>
+				</div>
+				<div class="footer-contact-us">
+					<h3 class="footer-description-title">Contattaci</h3>
+					<p class="footer-description-detail"> 
+						<img src="./assets/img/map-pin.svg" class="footer-description-icon" alt="posizione bed and breakfast">
+
+						<span>23, Fola Osibo, Lekki Phase 1</span></p>
+					<p class="footer-description-detail">
+						<img src="./assets/img/phone.svg" class="footer-description-icon" alt="numero di telefono bed and breakfast"> 
+						<span>
+					 08185956620</span></p>
+					<p class="footer-description-detail">
+						<img src="./assets/img/mail.svg" class="footer-description-icon" alt="email bed and breakfast">
+						<span>support@starhotels.com</span> </p>
+				</div>
+				<div class="footer-follow-us">
+					<h3 class="footer-description-title">Seguici</h3>
+					<ul class="footer-follow-us-lists">
+						<li class="follow-us-list">
+							<a href="">
+								<img src="./assets/img/facebook.svg" alt="pagina facebook bed and breakfast">
+							</a>
+						</li>
+						<li class="follow-us-list">
+							<a href="">
+								<img src="./assets/img/twitter.svg" alt="pagina twitter bed and breakfast">
+							</a>
+						</li>
+						<li class="follow-us-list">
+							<a href="">
+								<img src="./assets/img/instagram.svg" alt="pagina instagram bed and breakfast">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</footer>
+	<script defer async>
+		(() => {
+			const loader = document.getElementById('loader');
+			const scrollBar = document.getElementsByClassName('scroll-bar')[0];
+			window.addEventListener('load', () => {
+				loader.classList.add('none');
+				scrollBar.classList.remove('scroll-bar')
+			});
+		})();
+	</script>
+	<script  defer async src="assets/js/toggleHamburger.js"></script>
+</body>
+</html>
