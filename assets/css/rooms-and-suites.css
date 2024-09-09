@@ -226,8 +226,14 @@ hr {
     line-height: 132%;
 }
 
+#details{
+    display: flex;
+    flex-direction: column;
+}
+
 .details-container {
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .details-container p {
